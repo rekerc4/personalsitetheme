@@ -1,0 +1,28 @@
+/*
+Theme name: Personal Site Theme
+Theme URI: empty
+Author: Kenneth Dailey
+Author URI: http://www.kennethdailey.com
+Description: A quick theme to begin populating my portfolio website.
+Liscence: For personal use. Not Liscenced.
+Tags: Three column, flexible header, add more as needed.
+*/
+
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: white; 
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
