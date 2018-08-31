@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="App">
+<html lang="en" ng-app="app">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,4 +9,5 @@
     <?php wp_head();?>
     <link rel="stylesheet" type ="text/css" href="<?php bloginfo('template_url');?>/styles/main-style.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/fonts/font-awesome/css/font-awesome.min.css">
   </head>

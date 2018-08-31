@@ -6,37 +6,30 @@
  <section class="stars" id="stars">
      <header class="navigation hidden" id="navigation"> 
          <nav class="nav" id="nav">
-             <ul class="top-nav" id="top-nav">
-                 <li class="top-about" id="top-about">About</li>
-                 <li class="top-port" id="top-port">Portfolio</li>
-                 <li class="top-works" id="top-works">Works</li>
-                 <li class="top-contact" id="top-works">Contact</li>
-             </ul>
+             <span class="top-nav" id="top-nav">
+               <a href=""> <i class="fa fa-home" aria-hidden="true"></i></a>
+            </span>
          </nav>
      </header>
-    <!-- <section class="con-cir-one" id="con-cir-one">
-        <div class="stack stack3" id="stack3"></div>
-    </section> -->
-    <!-- <section class="con-cir-two" id="con-cir-two">
-            <div class="stack stack4" id="stack4"></div>
-    </section> -->
-    <section class="inner-cir-one" id="inner-cir-one">
-    <div class="stack stack1" id="stack1"></div>
-        <div class="stack stack2" id="stack2"></div>
-        <div class="stack stack3" id="stack3"></div>
-        <div class="stack stack4" id="stack4"><p class="portfolio-link-text" id="portfolio-link-text">Portfolio Link</p></div>
-        <div class="stack stack5" id="stack5"></div>
-    </section> 
-    <section class="cen-cir" id="cen-cir">
-        <div class="title-semcir" id="title-semcir">
-            <p class="s" id="s">Some text in the pharagraph</p>
-        </div>
-        <div class="about-semcir" id="about-semcir">
-            <p class="s">Some text in the pharagraph</p>
-        </div>
+    <circle>
+        <section class="inner-cir-one" id="inner-cir-one">
+        <div class="stack stack1" id="stack1"></div>
+            <div class="stack stack2" id="stack2"></div>
+            <div class="stack stack3" id="stack3"></div>
+            <div class="stack stack4" id="stack4"><p class="portfolio-link-text" id="portfolio-link-text">Portfolio Link</p></div>
+            <div class="stack stack5" id="stack5"></div>
+        </section> 
+        <section class="cen-cir" id="cen-cir">
+            <div class="title-semcir" id="title-semcir">
+                <p class="s" id="s">Some text in the pharagraph</p>
+            </div>
+            <div class="about-semcir" id="about-semcir">
+                <p class="s">Some text in the pharagraph</p>
+            </div>
 
-        
-    </section>
+            
+        </section>
+    </circle>
     <section class="trail hidden" id="trail">
         <div class="paver tile1" id="tile1">
             <div class="img-contain" id="">
@@ -184,6 +177,7 @@
     </section>
 
     </section>
+    <ng-view></ng-view>
  </section>
 </section>
 

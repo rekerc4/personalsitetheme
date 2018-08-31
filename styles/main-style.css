@@ -48,11 +48,13 @@ body{
 }
 
 .top-nav{
-    display: inline-block; 
+    display: inline-flex; 
+    flex-flow: column; 
     margin: 20px 0px 0px 25px; 
     background: linear-gradient(black 80% , white);
     border-radius: 5px; 
     list-style: none;
+    color: white; 
 }
 
 .top-nav li{
@@ -555,6 +557,8 @@ body{
     .trail{
         width: 300px; 
     }
+
+    
 }
 
 @media only screen and (min-width: 630px){
@@ -626,6 +630,10 @@ body{
 }
 
 @media only screen and (min-width: 769px){
+
+.top-nav{
+        flex-flow: row; 
+    }
 
 .works{
     grid-row-gap: 35px;
