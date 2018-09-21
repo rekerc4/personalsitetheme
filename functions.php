@@ -31,7 +31,10 @@ function load_jquery() {
 
 add_action( 'wp_enqueue_scripts', 'load_scripts');
 add_action('wp_enqueue_scripts', 'load_jquery');
-
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+    wp_deregister_style( 'contact-form-7' );
+}
 
 
 

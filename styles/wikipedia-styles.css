@@ -1,0 +1,144 @@
+html{
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  body{
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    line-height: 1;
+  }
+  
+  .body{
+    background-repeat: no-repeat;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .clearfix {
+      overflow: auto;
+  }
+  
+  .container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden; 
+  }
+  
+  .topspace{
+  height: 75%;
+  background: linear-gradient(grey, #404040);
+  position: relative;
+  z-index: -1;
+  }
+  
+  .folder{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  
+  }
+  
+  .tabs{
+  background: linear-gradient(#404040, black);
+  display: flex;
+  flex-direction: row;
+  }
+  
+  #title{
+  }
+  
+  .title{
+  font-family: Special Elite, sans-serif;
+  display: inline;
+  padding: 25px 10px 0px 10px;
+  border: 4px solid black;
+  border-bottom: none;
+  border-radius: 10px 10px 0% 0%;
+  background: rgb(248,245,225);
+  z-index: 1;
+  }
+  
+  .random{
+  font-family: Special Elite, sans-serif;
+  display: inline;
+  padding: 25px 10px 0px 10px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 10px 10px 0% 0%;
+  background: rgb(248,245,225);
+  z-index: 1;
+  }
+  
+  .search{
+  font-family: Special Elite, sans-serif;
+  display: inline;
+  padding: 25px 10px 0px 10px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 10px 10px 0% 0%;
+  background: rgb(248,245,225);
+  z-index: 1;
+  }
+  
+  
+  .folderbody{
+  flex: 1;
+  width: 100%;
+  height: 20%;
+  background: rgb(248,245,225);
+  position: relative;
+  }
+  
+  .searchbar{
+  position: absolute;
+  top: 10px;
+  transform: scaleY(0);
+  transition: all 1s ease-in;
+  transform-origin: top;
+  }
+  
+  .holder{
+   position: relative;
+  }
+  
+  .paper{
+    /*height: 727.1px;*/
+    width: 500px;
+    background: white;
+    position: absolute;
+    transform: skewY(2deg);
+    transition: 2s ease-in;
+  }
+  
+  .results{
+  width: 100%;
+  height: calc(75vh - 50px);
+  border: 10px solid;
+  }
+  
+  .top{
+  height: calc(25vh - 50px);
+  }
+  
+  .result{
+  font-family: Special Elite, sans-serif;
+  margin: 0px 0px 20px 20px;
+    height: 10px;
+  }
+  
+  .result a{
+    color: black; 
+  }
